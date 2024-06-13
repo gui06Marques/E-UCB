@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-UCB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-UCB</h1>
+    </header>
+    <main>
+        <section id="vagas-disponiveis">
+            <h2>Encontrar Vagas Disponíveis</h2>
+            <select id="selecao-vagas"></select>
+        </section>
+        <section id="reservar-vaga">
+            <h2>Reservar Vaga</h2>
+            <form id="form-reserva">
+                <label for="matricula">Matrícula:</label>
+                <input type="text" id="matricula" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+        <section id="pagamento">
+            <h2>Facilidade de Pagamento</h2>
+            <p id="mensagem-pagamento">A opção de pagamento será disponibilizada após a reserva.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sistema de Gestão de Espaços de Estacionamento - E-UCB</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
